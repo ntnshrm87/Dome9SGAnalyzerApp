@@ -17,13 +17,12 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Natural Language :: English",
-        "Intended Audience :: Security Analysts, Sec Ops, AWS Support Engineers",
+        "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    packages=["SGAnalyzerAppDir"],
+    packages=["SGAnalyzerApp"],
     include_package_data=True,
     install_requires=[
         "requests", "json", "configparser"
     ],
-    entry_points={"console_scripts": ["Dome9AWSSGAnalyzer=SGAnalyzerAppDir.app.main()"]}
 )
